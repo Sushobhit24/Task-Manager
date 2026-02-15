@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-Then open [http://localhost:5173](http://localhost:5173).
+Then open  http://task-manager-7kiiur5bf-mauryasushobhit-3351s-projects.vercel.app/:
 
 ## Build for Production
 
@@ -51,9 +51,9 @@ npm run preview   # optional: preview production build locally
 
 ## Deployment
 
-- **Vercel / Netlify**: Connect your GitHub repo; use build command `npm run build` and output directory `dist`.
-- **GitHub Pages**: Push the repo, then in repo Settings → Pages, set source to GitHub Actions and use the “Static HTML” or Vite workflow, or build locally and deploy the `dist` folder (set `base: '/your-repo-name/'` in `vite.config.js` if needed).
+- **Vercel and github
 
 ## License
 
 MIT
+
