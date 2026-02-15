@@ -41,26 +41,10 @@ Tailwind CSS
 
 HTML5
 
-Project Structure
-#task-tracker/
-#│
-#├── src/
-#│   ├── components/
-#│   │   ├── TaskForm.jsx
-#│   │   ├── TaskList.jsx
-#│   │   ├── TaskItem.jsx
-#│   │   └── FilterBar.jsx
-#│   ├── App.jsx
-#│   ├── main.jsx
-#│   └── index.css
-#│
-#├── public/
-#├── package.json
-#└── README.md
 
 Installation and Running Locally
 1. Clone the repository
-git clone https://github.com/your-username/task-tracker.git
+git clone https://github.com/Sushobhit24/Task-Manager/.git
 
 2. Go to project folder
 cd task-tracker
