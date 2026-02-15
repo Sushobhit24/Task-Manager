@@ -1,5 +1,5 @@
 # Task-Manager
-Task Tracker Web App is a simple and responsive task management application built using React JS, JavaScript, and Tailwind CSS.
+
 Task Tracker Web App is a simple and responsive task management application built using React JS, JavaScript, and Tailwind CSS.
 It allows users to add tasks with priority levels, mark tasks as completed, delete tasks, and filter tasks based on priority.
 All tasks are stored in browser localStorage, so data remains even after refreshing the page.
@@ -42,21 +42,21 @@ Tailwind CSS
 HTML5
 
 Project Structure
-task-tracker/
-│
-├── src/
-│   ├── components/
-│   │   ├── TaskForm.jsx
-│   │   ├── TaskList.jsx
-│   │   ├── TaskItem.jsx
-│   │   └── FilterBar.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-│
-├── public/
-├── package.json
-└── README.md
+#task-tracker/
+#│
+#├── src/
+#│   ├── components/
+#│   │   ├── TaskForm.jsx
+#│   │   ├── TaskList.jsx
+#│   │   ├── TaskItem.jsx
+#│   │   └── FilterBar.jsx
+#│   ├── App.jsx
+#│   ├── main.jsx
+#│   └── index.css
+#│
+#├── public/
+#├── package.json
+#└── README.md
 
 Installation and Running Locally
 1. Clone the repository
