@@ -1,80 +1,59 @@
-# Task-Manager
+# Task Manager
 
-Task Tracker Web App is a simple and responsive task management application built using React JS, JavaScript, and Tailwind CSS.
-It allows users to add tasks with priority levels, mark tasks as completed, delete tasks, and filter tasks based on priority.
-All tasks are stored in browser localStorage, so data remains even after refreshing the page.
+A simple, responsive single-page Task Manager web app built with React and Tailwind CSS. Add tasks, filter by priority, search, and persist everything in your browser.
 
-This project demonstrates clean React component structure, state management, and responsive UI design.
+## Features
 
-Live Demo
+- **Add Task** – Task title, priority (Low / Medium / High), and optional due date
+- **Display Tasks** – List view with title, priority badge, completion status, and due date
+- **Complete & Delete** – Checkbox to mark complete, Delete button per task
+- **Priority Filter** – Filter by All, Low, Medium, or High
+- **Search** – Filter tasks by title
+- **Due Date** – Optional due date; tasks sorted by due date
+- **Local Storage** – Tasks are saved automatically and restored on refresh
 
-🔗 Live Link: https://your-live-link-here
+## Tech Stack
 
-Features
-Core Features
+- **React** (functional components, `useState`, `useEffect`)
+- **Vite** – build tool and dev server
+- **Tailwind CSS** – styling
+- **JavaScript** – no TypeScript
 
-Add tasks with title and priority (Low / Medium / High)
+## Project Structure
 
-Display tasks in a clean list UI
+```
+src/
+  components/
+    TaskForm.jsx   # Add task form (title, priority, due date)
+    TaskList.jsx   # Renders list of TaskItem
+    TaskItem.jsx   # Single task row (checkbox, title, priority, delete)
+  App.jsx          # Main app state, filters, localStorage
+  main.jsx
+  index.css
+  constants.js     # STORAGE_KEY, PRIORITIES
+```
 
-Mark tasks as completed
+## Run Locally
 
-Delete tasks
-
-Filter tasks by priority (All / Low / Medium / High)
-
-Persistent storage using localStorage
-
-Bonus Features
-
-Search tasks by title
-
-Due date support and sorting
-
-Tech Stack
-
-React JS
-
-JavaScript (ES6+)
-
-Tailwind CSS
-
-HTML5
-
-
-Installation and Running Locally
-1. Clone the repository
-git clone https://github.com/Sushobhit24/Task-Manager/.git
-
-2. Go to project folder
-cd task-tracker
-
-3. Install dependencies
+```bash
 npm install
-
-4. Start the project
 npm run dev
+```
 
-S
-The app will run on:
-http://localhost:5173
+Then open [http://localhost:5173](http://localhost:5173).
 
-Local Storage
+## Build for Production
 
-This app uses localStorage to save tasks, so your tasks remain even after refreshing the page.
+```bash
+npm run build
+npm run preview   # optional: preview production build locally
+```
 
-Responsive Design
+## Deployment
 
-The UI is fully responsive and works on:
+- **Vercel / Netlify**: Connect your GitHub repo; use build command `npm run build` and output directory `dist`.
+- **GitHub Pages**: Push the repo, then in repo Settings → Pages, set source to GitHub Actions and use the “Static HTML” or Vite workflow, or build locally and deploy the `dist` folder (set `base: '/your-repo-name/'` in `vite.config.js` if needed).
 
-Mobile
+## License
 
-Tablet
-
-Desktop
-
-#AUTHOR - Sushobhit Maurya
-
-Author
-
-Sushobhit Maurya
+MIT
